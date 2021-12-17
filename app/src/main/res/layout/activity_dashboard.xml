@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:background="@color/orange"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".MainActivity"
+            android:orientation="vertical"
+            android:layout_marginTop="30dp"
+            android:background="@color/colorPrimary">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content"
+                android:padding="30dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_weight="2"
+                    android:layout_height="wrap_content"
+                   >
+
+                <TextView
+                    android:id="@+id/hello"
+                    android:layout_width="0dp"
+                    android:layout_weight="1.5"
+                    android:layout_height="wrap_content"
+                    android:text="Hello,"
+                    android:textColor="@color/orange"
+                    android:textSize="20dp" />
+                    <ImageView
+                        android:elevation="@dimen/padding_small_5"
+                        android:layout_width="0dp"
+                        android:layout_weight="0.5"
+                        android:layout_height="80dp"
+                        android:layout_alignParentRight="true"
+                        android:background="@drawable/whiteperson" />
+
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/dash_username"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/hello"
+                    android:layout_marginTop="-40dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="User"
+                    android:textColor="@color/green"
+                    android:textSize="26dp"
+                    android:textStyle="bold" />
+
+                         </LinearLayout>
+
+            <LinearLayout
+                android:elevation="50dp"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="3"
+                android:orientation="vertical"
+                android:background="@drawable/card_background">
+
+
+                <TextView
+                    android:id="@+id/logintxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="48dp"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/seg_ui_semibold"
+                    android:text="Menu"
+                    android:textColor="@color/white"
+                    android:textSize="15sp" />
+
+
+                <LinearLayout
+                    android:id="@+id/linear2"
+                    android:elevation="@dimen/padding_small_5"
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <RelativeLayout
+                        android:id="@+id/Onboard"
+                        android:elevation="20dp"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_width="170dp"
+                            android:layout_height="250dp"
+                            android:layout_marginLeft="5dp"
+                            android:src="@drawable/backend" />
+
+                        <TextView
+                            android:id="@+id/text"
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="30dp"
+                            android:layout_marginTop="40dp"
+                            android:text="Onboard Farmer"
+                            android:textColor="@color/brown"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+
+                        android:id="@+id/bookorder"
+                        android:elevation="20dp"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_width="170dp"
+                            android:layout_height="250dp"
+                            android:src="@drawable/frontend" />
+
+                        <TextView
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="35dp"
+                            android:layout_marginTop="40dp"
+                            android:text="Book Orders"
+                            android:textColor="@color/brown"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="35dp"
+                            android:layout_marginTop="60dp"
+                            android:text="*New"
+                            android:textColor="#ab03082b"
+                            android:textSize="12sp"
+                            android:textStyle="bold" />
+
+                    </RelativeLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/linear3"
+                    android:elevation="@dimen/padding_small_5"
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <RelativeLayout
+                        android:id="@+id/ViewOrder"
+                        android:elevation="20dp"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_width="150dp"
+                            android:layout_height="200dp"
+                            android:background="@drawable/roundcorner"
+                            android:src="@drawable/order" />
+
+                        <TextView
+                            android:id="@+id/text2"
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                           android:gravity="center"
+                            android:text="View Order"
+                            android:layout_marginTop="10dp"
+                            android:textColor="@color/brown"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+
+                    </RelativeLayout>
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+            </LinearLayout>
+
+
+
+
+
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

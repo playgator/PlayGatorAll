@@ -1,0 +1,261 @@
+<resources>
+    <string name="app_name">Farm Gator</string>
+    <string-array name="types">
+        <item>Mobile</item>
+        <item>Office</item>
+        <item>Home</item>
+    </string-array>
+
+    <string-array name="numbers">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="kharif">
+        <item>kharif 1</item>
+        <item>kharif 2</item>
+        <item>kharif 3</item>
+    </string-array>
+    <string-array name="rabi">
+        <item>rabi 1</item>
+        <item>rabi 2</item>
+        <item>rabi 3</item>
+    </string-array>
+
+    <string-array name="item_fertilzer">
+
+        <item>Fertilzer 1</item>
+        <item>Fertilzer 2</item>
+        <item>Fertilzer 3</item>
+        <item>Fertilzer 4</item>
+        <item>Fertilzer 5</item>
+        <item>Fertilzer 6</item>
+        <item>Fertilzer 7</item>
+
+    </string-array>
+
+    <string-array name="item_pesticide">
+
+        <item>Pestiside 1</item>
+        <item>Pestiside 2</item>
+        <item>Pestiside 3</item>
+        <item>Pestiside 4</item>
+        <item>Pestiside 5</item>
+        <item>Pestiside 6</item>
+        <item>Pestiside 7</item>
+
+    </string-array>
+
+    <string-array name="item_nutrients">
+
+        <item>Nutrients 1</item>
+        <item>Nutrients 2</item>
+        <item>Nutrients 3</item>
+        <item>Nutrients 4</item>
+        <item>Nutrients 5</item>
+        <item>Nutrients 6</item>
+        <item>Nutrients 7</item>
+
+    </string-array>
+
+    <string-array name="item_special">
+
+        <item>Special 1</item>
+        <item>Special 2</item>
+        <item>Special 3</item>
+        <item>Special 4</item>
+        <item>Special 5</item>
+        <item>Special 6</item>
+
+
+    </string-array>
+    <string-array name="item_suppliment">
+
+        <item>Suppliment 1</item>
+        <item>Suppliment 2</item>
+        <item>Suppliment 3</item>
+        <item>Suppliment 4</item>
+        <item>Suppliment 5</item>
+        <item>Suppliment 6</item>
+
+
+    </string-array>
+    <string-array name="item_fertilzer_price">
+
+        <item>100</item>
+        <item>40</item>
+        <item>55</item>
+        <item>25</item>
+        <item>80</item>
+        <item>120</item>
+        <item>15</item>
+        <item>100</item>
+        <item>40</item>
+        <item>55</item>
+        <item>25</item>
+        <item>80</item>
+        <item>120</item>
+        <item>15</item>
+        <item>100</item>
+        <item>40</item>
+        <item>55</item>
+        <item>25</item>
+        <item>80</item>
+        <item>120</item>
+        <item>15</item>
+        <item>100</item>
+        <item>40</item>
+        <item>55</item>
+        <item>25</item>
+        <item>80</item>
+        <item>120</item>
+        <item>15</item>
+        <item>100</item>
+        <item>40</item>
+        <item>55</item>
+        <item>25</item>
+        <item>80</item>
+        <item>120</item>
+        <item>15</item>
+        <item>100</item>
+        <item>40</item>
+        <item>55</item>
+        <item>25</item>
+        <item>80</item>
+        <item>120</item>
+        <item>15</item>
+        <item>100</item>
+        <item>40</item>
+        <item>55</item>
+        <item>25</item>
+        <item>80</item>
+        <item>120</item>
+        <item>15</item>
+        <item>100</item>
+        <item>40</item>
+        <item>55</item>
+        <item>25</item>
+        <item>80</item>
+        <item>120</item>
+        <item>15</item>
+        <item>100</item>
+        <item>40</item>
+        <item>55</item>
+        <item>25</item>
+        <item>80</item>
+        <item>120</item>
+        <item>15</item>
+        <item>100</item>
+        <item>40</item>
+        <item>55</item>
+        <item>25</item>
+        <item>80</item>
+        <item>120</item>
+        <item>15</item>
+        <item>100</item>
+        <item>40</item>
+        <item>55</item>
+        <item>25</item>
+        <item>80</item>
+        <item>120</item>
+        <item>15</item>
+        <item>100</item>
+        <item>40</item>
+        <item>55</item>
+        <item>25</item>
+        <item>80</item>
+        <item>120</item>
+        <item>15</item>
+        <item>120</item>
+        <item>15</item>
+        <item>100</item>
+        <item>40</item>
+        <item>55</item>
+        <item>25</item>
+        <item>80</item>
+        <item>120</item>
+        <item>15</item>
+        <item>120</item>
+        <item>15</item>
+        <item>100</item>
+        <item>40</item>
+        <item>55</item>
+        <item>25</item>
+        <item>80</item>
+        <item>120</item>
+        <item>15</item>
+        <item>120</item>
+        <item>15</item>
+        <item>100</item>
+        <item>40</item>
+        <item>55</item>
+        <item>25</item>
+        <item>80</item>
+        <item>120</item>
+        <item>15</item>
+        <item>120</item>
+        <item>15</item>
+        <item>100</item>
+        <item>40</item>
+        <item>55</item>
+        <item>25</item>
+        <item>80</item>
+        <item>120</item>
+        <item>15</item>
+        <item>120</item>
+        <item>15</item>
+        <item>100</item>
+        <item>40</item>
+        <item>55</item>
+        <item>25</item>
+        <item>80</item>
+        <item>120</item>
+        <item>15</item>
+        <item>120</item>
+        <item>15</item>
+        <item>100</item>
+        <item>40</item>
+        <item>55</item>
+        <item>25</item>
+        <item>80</item>
+        <item>120</item>
+        <item>15</item>
+        <item>120</item>
+        <item>15</item>
+        <item>100</item>
+        <item>40</item>
+        <item>55</item>
+        <item>25</item>
+        <item>80</item>
+        <item>120</item>
+        <item>15</item>
+        <item>120</item>
+        <item>15</item>
+        <item>100</item>
+        <item>40</item>
+        <item>55</item>
+        <item>25</item>
+        <item>80</item>
+        <item>120</item>
+        <item>15</item>
+        <item>120</item>
+        <item>15</item>
+        <item>100</item>
+        <item>40</item>
+        <item>55</item>
+        <item>25</item>
+        <item>80</item>
+        <item>120</item>
+        <item>15</item>
+        <item>120</item>
+        <item>15</item>
+        <item>100</item>
+        <item>40</item>
+        <item>55</item>
+        <item>25</item>
+        <item>80</item>
+        <item>120</item>
+        <item>15</item>
+
+    </string-array>
+</resources>

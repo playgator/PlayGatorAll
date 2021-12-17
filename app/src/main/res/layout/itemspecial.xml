@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/padding_small_5"
+        android:layout_marginRight="@dimen/padding_small_5"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/checkBox_select"
+            android:layout_width="0dp"
+            android:layout_weight=".14"
+            android:layout_marginRight="5dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text=""
+            android:layout_marginLeft="5dp"/>
+        <TextView
+            android:id="@+id/specialname"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fertilizerName"
+            android:text="TextView"
+            android:layout_weight=".50"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:textColor="@color/orange"
+            android:layout_toLeftOf="@+id/checkBox"
+            android:layout_toStartOf="@+id/checkBox" />
+        <TextView
+            android:id="@+id/specialprice"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:layout_weight=".25"
+            android:layout_toLeftOf="@+id/checkBox"
+            android:layout_toStartOf="@+id/checkBox"
+            android:text="TextView" />
+        <EditText
+            android:id="@+id/specialnumber"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:importantForAutofill="no"
+            tools:targetApi="o"
+            android:inputType="number"
+            android:layout_weight=".25"
+            android:layout_toLeftOf="@+id/checkBox"
+            android:layout_toStartOf="@+id/checkBox"
+            />
+
+        <TextView
+            android:id="@+id/specialtotal"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@+id/checkBox"
+            android:layout_toLeftOf="@+id/checkBox"
+            android:layout_weight="0.25"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="Total"
+            android:textSize="12sp"
+            android:textColor="@color/green" />
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

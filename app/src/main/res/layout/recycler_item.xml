@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    app:cardElevation="10dp"
+    android:layout_marginTop="@dimen/margin_s"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginBottom="10dp"
+    app:cardCornerRadius="@dimen/cardview_default_radius">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:layout_margin="@dimen/margin_m"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/farmno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="15sp"
+            android:textColor="@color/orange"
+            android:textStyle="bold" />
+ <LinearLayout
+                android:orientation="vertical"
+                android:background="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="No.of Acres  *"
+                    android:textSize="13sp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@color/orange"/>
+
+        <TextView
+            android:id="@+id/tv_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textSize="15sp"
+            android:text="2"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/green"
+            android:textStyle="bold" />
+
+ </LinearLayout>
+        <LinearLayout
+                android:orientation="vertical"
+                android:background="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Fertilizers  *"
+                    android:textSize="13sp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@color/orange"/>
+            <TextView
+                android:id="@+id/fertilizer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Select Your Fertilizers"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/brown"/>
+              <LinearLayout
+                android:orientation="vertical"
+                android:background="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Pesticides  *"
+                    android:textSize="13sp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@color/orange"/>
+                  <TextView
+                      android:id="@+id/pestiside"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:text="Select Your Pesticides"
+                      android:textSize="13sp"
+                      android:textStyle="bold"
+                      android:layout_marginTop="10dp"
+                      android:layout_marginLeft="10dp"
+                      android:textColor="@color/brown"/>
+              </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:background="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/padding_medium_10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Specialty Implements  *"
+                    android:textSize="13sp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@color/orange"/>
+                <TextView
+                    android:id="@+id/nutrients"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Specialty Implements"
+                    android:textSize="13sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@color/brown"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:background="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/padding_medium_10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Specialty Special  *"
+                    android:textSize="13sp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@color/orange"/>
+                <TextView
+                    android:id="@+id/special"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Specialty Special"
+                    android:textSize="13sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@color/brown"/>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:background="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/padding_medium_10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Organic MA *"
+                    android:textSize="13sp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@color/orange"/>
+                <TextView
+                    android:id="@+id/supliments"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Organic MA"
+                    android:textSize="13sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@color/brown"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

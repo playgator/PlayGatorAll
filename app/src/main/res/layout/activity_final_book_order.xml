@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <com.mikhaellopez.circularprogressbar.CircularProgressBar
+        android:id="@+id/CircularProgressbar"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:background_progressbar_color="@color/brown"
+        app:background_progressbar_width="5dp"
+        android:layout_marginTop="@dimen/padding_50"
+        android:layout_gravity="center"
+        app:progressbar_color="#F44336"
+        android:visibility="gone"
+        app:progressbar_width="10dp" />
+
+    <TextView
+        android:id="@+id/tv_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="15sp"
+        android:textColor="@color/orange"
+        android:textStyle="bold" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/orange"
+        android:orientation="vertical" >
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:background="#616161"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            />
+        <LinearLayout
+            android:id="@+id/parent_linear_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:orientation="vertical" >
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:background="#616161"
+
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="@color/orange"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:elevation="15dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Total SKU ₹ "
+                android:textSize="16sp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:id="@+id/totalExpensetxt"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0.00 "
+                android:textSize="16sp"
+                android:layout_marginLeft="@dimen/padding_small_5"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:id="@+id/totalExpense"
+                android:layout_gravity="center"/>
+
+            <Button
+                android:id="@+id/submitexpenses"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:text="Submit"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

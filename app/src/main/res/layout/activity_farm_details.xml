@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/green"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp"
+            app:cardPreventCornerOverlap="false"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:background="@color/orange"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:id="@+id/linearLayout1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorPrimary"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/circle"
+                        android:padding="10dp"
+                        android:src="@drawable/img_register"
+                        app:tint="@color/orange" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="20dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:text="Farm Details "
+                        android:textColor="@color/green"
+                        android:textSize="22sp" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="3dp"
+            app:cardPreventCornerOverlap="false"
+            app:cardUseCompatPadding="true">
+
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/orange"
+                android:orientation="vertical" >
+                <LinearLayout
+                    android:id="@+id/parent_linear_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" />
+
+
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+        <com.mikhaellopez.circularprogressbar.CircularProgressBar
+            android:id="@+id/CircularProgressbar"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            app:background_progressbar_color="@color/brown"
+            app:background_progressbar_width="5dp"
+            android:layout_marginTop="@dimen/padding_medium_10dp"
+            android:layout_gravity="center"
+            app:progressbar_color="#F44336"
+            android:visibility="gone"
+            app:progressbar_width="10dp" />
+
+        <RelativeLayout
+            android:id="@+id/farmaddalllayout"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            >
+
+            <Button
+                android:id="@+id/addfarmbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/padding_50"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="-5dp"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/brown"
+                android:padding="@dimen/padding_small_5"
+                android:text="Add"
+                android:onClick="AddAll"
+                android:textSize="11sp" />
+
+            <EditText
+                android:id="@+id/farmcount"
+                android:layout_width="fill_parent"
+                android:background="@color/orange"
+                android:layout_height="40dp"
+                android:textColor="@color/white"
+                android:paddingLeft="@dimen/padding_medium_10dp"
+                android:layout_toLeftOf="@+id/addfarmbutton"
+                android:hint="How Many Farms that You Have?"
+                android:textColorHint="@color/white"
+                android:textSize="11sp"
+                android:inputType="text"
+                android:maxLines="1" />
+        </RelativeLayout>
+        <Button
+            android:visibility="gone"
+            android:id="@+id/button_add"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/LinearLayout3"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="15dp"
+            android:background="@color/colorPrimary"
+            android:fontFamily="sans-serif-medium"
+            android:text="Add Farm"
+            android:elevation="15dp"
+            android:onClick="onAddField"
+            android:textAllCaps="false"
+            android:textColor="@color/white" />
+
+
+        <Button
+            android:visibility="invisible"
+            android:id="@+id/button_submit_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+          android:background="@color/brown"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="10dp"
+            android:layout_marginBottom="15dp"
+            android:paddingRight="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:text="Submit List"
+            android:textAllCaps="false"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+
+</ScrollView>

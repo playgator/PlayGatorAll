@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/FarmGator-master/Farm Gator/FarmGator-master/app/src/main/res/layout/activity_book_order.xml" value="0.12952898550724637" />
+        <entry key="..\:/FarmGator-master/Farm Gator/FarmGator-master/app/src/main/res/layout/activity_farm_details.xml" value="0.33" />
+        <entry key="..\:/FarmGator-master/Farm Gator/FarmGator-master/app/src/main/res/layout/activity_registration.xml" value="0.12952898550724637" />
+        <entry key="..\:/FarmGator-master/Farm Gator/FarmGator-master/app/src/main/res/layout/card_row.xml" value="0.12952898550724637" />
+        <entry key="..\:/FarmGator-master/Farm Gator/FarmGator-master/app/src/main/res/layout/field.xml" value="0.2" />
+        <entry key="..\:/Users/Dell/Downloads/Farm Gator(11)/Farm Gator/FarmGator-master/app/src/main/res/layout/activity_farm_details.xml" value="0.2671875" />
+        <entry key="..\:/Users/Dell/Downloads/Farm Gator(11)/Farm Gator/FarmGator-master/app/src/main/res/layout/activity_onboard_first.xml" value="0.24259259259259258" />
+        <entry key="..\:/Users/Dell/Downloads/Farm Gator(11)/Farm Gator/FarmGator-master/app/src/main/res/layout/activity_registration.xml" value="0.2671875" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK" />
+</project>
